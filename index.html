@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>A.H. Rohan — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-brand">
+      <span class="brand-text">A.H.<span class="brand-accent">Rohan</span></span>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="nav-link">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-orb orb1"></div>
+    <div class="hero-orb orb2"></div>
+
+    <div class="hero-content">
+      <div class="hero-image-wrap">
+        <div class="hero-image-ring"></div>
+        <div class="hero-image-box" id="heroImageBox">
+          <img src="" alt="Arafat Hasan Rohan" id="profileImg" style="display:none;" />
+          <div class="img-placeholder" id="imgPlaceholder">
+            <i class="fa-solid fa-user"></i>
+            <label for="imgUpload" class="upload-label">Upload Photo</label>
+            <input type="file" id="imgUpload" accept="image/*" style="display:none;" />
+          </div>
+        </div>
+        <div class="hero-badge">Co-founder of Everest</div>
+      </div>
+
+      <div class="hero-text">
+        <p class="hero-greeting animate-in" style="--delay:0.1s">Hello, I'm</p>
+        <h1 class="hero-name animate-in" style="--delay:0.2s">
+          Arafat Hasan<br /><span class="name-green">Rohan</span>
+        </h1>
+        <p class="hero-aka animate-in" style="--delay:0.3s">— A.H. Rohan —</p>
+        <p class="hero-tagline animate-in" style="--delay:0.4s">
+          Student · Entrepreneur · Co-Founder of <a href="https://www.everest.bd" target="_blank" class="everest-link"><span class="e-icon">E</span>verest</a>
+        </p>
+        <div class="hero-btns animate-in" style="--delay:0.5s">
+          <a href="#projects" class="btn-primary">See My Projects</a>
+          <a href="#contact" class="btn-outline">Contact Me</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Who I Am</span>
+        <h2 class="section-title">About <span class="green">Me</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p class="about-lead">
+            I'm <strong>Arafat Hasan Rohan</strong>, a passionate student from Bangladesh currently studying at <strong>Lalmohan Hamim Residential School and College</strong> in Class 2nd Year.
+          </p>
+          <p>
+            Beyond academics, I'm deeply driven by technology, digital innovation, and the power of social media. I believe in building platforms that connect people — which is why I co-founded <strong>Everest</strong>, a next-generation social media platform inspired by the spirit of community and connection.
+          </p>
+          <p>
+            I'm always curious, always learning, and always building something new. My goal is to make a mark in the world of technology and entrepreneurship from Bangladesh.
+          </p>
+          <div class="about-stats">
+            <div class="stat-card">
+              <span class="stat-num">2nd</span>
+              <span class="stat-label">Year Student</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">1</span>
+              <span class="stat-label">Platform Co-Founded</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">∞</span>
+              <span class="stat-label">Ambition</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-card">
+          <div class="info-list">
+            <div class="info-item">
+              <i class="fa-solid fa-user-graduate"></i>
+              <div>
+                <span class="info-label">Student</span>
+                <span class="info-val">2nd Year</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fa-solid fa-school"></i>
+              <div>
+                <span class="info-label">Institution</span>
+                <span class="info-val">Lalmohan Hamim Residential School & College</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <div>
+                <span class="info-label">Location</span>
+                <span class="info-val">Lalmohan Bhola</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fa-solid fa-globe"></i>
+              <div>
+                <span class="info-label">Platform</span>
+                <span class="info-val"><a href="https://www.everest.bd" target="_blank" class="link-green">www.everest.bd</a></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION ===== -->
+  <section class="education section" id="education">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">My Journey</span>
+        <h2 class="section-title">Edu<span class="green">cation</span></h2>
+      </div>
+      <div class="edu-timeline">
+        <div class="edu-card active-card">
+          <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+          <div class="edu-body">
+            <span class="edu-year current-badge">Current</span>
+            <h3>Higher Secondary Certificate (HSC)</h3>
+            <p class="edu-inst">
+              <a href="#" target="_blank" class="https://www.lhmrschoolandcollege.edu.bd">
+                Lalmohan Hamim Residential School and College
+              </a>
+            </p>
+            <p class="edu-desc">Currently studying in 2nd Year at one of the prominent residential institutions in Bangladesh. Gaining knowledge across science and humanities with a focus on analytical thinking and leadership.</p>
+            <div class="edu-tags">
+              <span class="tag">2nd Year</span>
+              <span class="tag">Residential</span>
+              <span class="tag">Bangladesh</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="edu-card">
+          <div class="edu-icon"><i class="fa-solid fa-school"></i></div>
+          <div class="edu-body">
+            <span class="edu-year">Completed</span>
+            <h3>Secondary School Certificate (SSC)</h3>
+            <p class="edu-inst">Lalmohan Hamim Residential School and College</p>
+            <p class="edu-desc">Completed SSC with dedication. Built strong foundations in science, mathematics, and general knowledge during secondary education.</p>
+            <div class="edu-tags">
+              <span class="tag">SSC</span>
+              <span class="tag">Completed</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What I've Built</span>
+        <h2 class="section-title">My <span class="green">Projects</span></h2>
+      </div>
+      <div class="projects-grid">
+
+        <!-- EVEREST - MAIN PROJECT -->
+        <div class="project-card featured-project">
+          <div class="project-glow"></div>
+          <div class="project-top">
+            <div class="project-icon everest-icon">
+              <span class="big-e">E</span>
+            </div>
+            <div class="project-badges">
+              <span class="badge-featured">⭐ Featured</span>
+              <span class="badge-live">🟢 Live</span>
+            </div>
+          </div>
+          <h3 class="project-title">Everest — Social Media Platform</h3>
+          <p class="project-desc">
+            Everest is a next-generation social media platform — similar to Facebook — designed to connect people across Bangladesh and beyond. It's built with the vision of a community-driven, user-first digital space.
+          </p>
+          <div class="project-meta">
+            <div class="project-role">
+              <i class="fa-solid fa-code-branch"></i>
+              <div>
+                <span class="meta-label">My Role</span>
+                <span class="meta-val">Co-Founder</span>
+              </div>
+            </div>
+            <div class="project-role">
+              <i class="fa-solid fa-crown"></i>
+              <div>
+                <span class="meta-label">Founder</span>
+                <span class="meta-val">Murad Ahmed Simanto</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-tags">
+            <span class="tag">Social Media</span>
+            <span class="tag">Bangladesh</span>
+            <span class="tag">Startup</span>
+            <span class="tag">Tech</span>
+          </div>
+          <a href="https://www.everest.bd" target="_blank" class="project-link">
+            <span class="e-icon-sm">E</span> Visit Everest <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+
+        <!-- PLACEHOLDER PROJECT 2 -->
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon default-icon">
+              <i class="fa-solid fa-laptop-code"></i>
+            </div>
+          </div>
+          <h3 class="project-title">More Projects Coming</h3>
+          <p class="project-desc">
+            Currently working on exciting new projects in technology and social media. Stay tuned for updates — big things are in the making!
+          </p>
+          <div class="project-tags">
+            <span class="tag">Coming Soon</span>
+            <span class="tag">Technology</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What I Know</span>
+        <h2 class="section-title">Skills &amp; <span class="green">Interests</span></h2>
+      </div>
+      <div class="skills-grid">
+
+        <div class="skill-category">
+          <h3 class="skill-cat-title"><i class="fa-solid fa-mobile-screen-button"></i> Social Media</h3>
+          <div class="skill-pills">
+            <div class="skill-pill"><span>Facebook</span><div class="pill-bar"><div class="pill-fill" style="--pct:90%"></div></div></div>
+            <div class="skill-pill"><span>Instagram</span><div class="pill-bar"><div class="pill-fill" style="--pct:85%"></div></div></div>
+            <div class="skill-pill"><span>TikTok</span><div class="pill-bar"><div class="pill-fill" style="--pct:80%"></div></div></div>
+            <div class="skill-pill"><span>LinkedIn</span><div class="pill-bar"><div class="pill-fill" style="--pct:70%"></div></div></div>
+            <div class="skill-pill"><span>X (Twitter)</span><div class="pill-bar"><div class="pill-fill" style="--pct:75%"></div></div></div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="skill-cat-title"><i class="fa-solid fa-rocket"></i> Entrepreneurship</h3>
+          <div class="skill-pills">
+            <div class="skill-pill"><span>Platform Building</span><div class="pill-bar"><div class="pill-fill" style="--pct:80%"></div></div></div>
+            <div class="skill-pill"><span>Co-Founding</span><div class="pill-bar"><div class="pill-fill" style="--pct:85%"></div></div></div>
+            <div class="skill-pill"><span>Community Building</span><div class="pill-bar"><div class="pill-fill" style="--pct:78%"></div></div></div>
+            <div class="skill-pill"><span>Digital Marketing</span><div class="pill-bar"><div class="pill-fill" style="--pct:72%"></div></div></div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="skill-cat-title"><i class="fa-solid fa-lightbulb"></i> Personal Traits</h3>
+          <div class="trait-cards">
+            <div class="trait-card"><i class="fa-solid fa-brain"></i> Creative Thinker</div>
+            <div class="trait-card"><i class="fa-solid fa-users"></i> Team Player</div>
+            <div class="trait-card"><i class="fa-solid fa-fire"></i> Self-Motivated</div>
+            <div class="trait-card"><i class="fa-solid fa-magnifying-glass"></i> Curious Learner</div>
+            <div class="trait-card"><i class="fa-solid fa-handshake"></i> Leader</div>
+            <div class="trait-card"><i class="fa-solid fa-bolt"></i> Fast Adapter</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Reach Out</span>
+        <h2 class="section-title">Con<span class="green">tact</span> Me</h2>
+      </div>
+      <p class="contact-sub">Find me on any of these platforms — I'm always open to connect, collaborate, or just say hi!</p>
+
+      <div class="social-grid">
+        <a href="#" target="_blank" class="social-card facebook">
+          <i class="fa-brands fa-facebook-f"></i>
+          <span class="social-name">Facebook</span>
+          <span class="social-handle">@ArafatHasanRohan</span>
+          <span class="social-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+        </a>
+        <a href="#" target="_blank" class="social-card tiktok">
+          <i class="fa-brands fa-tiktok"></i>
+          <span class="social-name">TikTok</span>
+          <span class="social-handle">@AHRohan</span>
+          <span class="social-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+        </a>
+        <a href="#" target="_blank" class="social-card linkedin">
+          <i class="fa-brands fa-linkedin-in"></i>
+          <span class="social-name">LinkedIn</span>
+          <span class="social-handle">Arafat Hasan Rohan</span>
+          <span class="social-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+        </a>
+        <a href="#" target="_blank" class="social-card twitter">
+          <i class="fa-brands fa-x-twitter"></i>
+          <span class="social-name">X (Twitter)</span>
+          <span class="social-handle">@AHRohan</span>
+          <span class="social-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+        </a>
+        <a href="https://wa.me/880XXXXXXXXXX" target="_blank" class="social-card whatsapp">
+          <i class="fa-brands fa-whatsapp"></i>
+          <span class="social-name">WhatsApp</span>
+          <span class="social-handle">+8801930117626</span>
+          <span class="social-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+        </a>
+        <a href="#" target="_blank" class="social-card instagram">
+          <i class="fa-brands fa-instagram"></i>
+          <span class="social-name">Instagram</span>
+          <span class="social-handle">@AHRohan</span>
+          <span class="social-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+        </a>
+      </div>
+
+      <div class="everest-contact-cta">
+        <p>Also connect with me on</p>
+        <a href="https://www.everest.bd" target="_blank" class="everest-cta-btn">
+          <span class="e-icon">E</span>verest — <span>www.everest.bd</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="brand-text">A.H.<span class="brand-accent">Rohan</span></span>
+        <p>Student · Entrepreneur · Co-Founder</p>
+      </div>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-everest">
+        <a href="https://www.everest.bd" target="_blank">
+          <span class="e-icon">E</span>verest
+        </a>
+        <span class="founder-note">Founded by <strong>Murad Ahmed Simanto</strong></span>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 Arafat Hasan Rohan (A.H. Rohan). All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
